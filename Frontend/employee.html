@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Management</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <div id="app">
+    <h1>Employee Management System</h1>
+
+
+    <form id="employee-form">
+      <input type="hidden" id="employee-id" />
+
+      <label>
+        Name:
+        <input type="text" id="name" placeholder="Enter name" required minlength="3" />
+      </label>
+      <label>
+        Email:
+        <input type="email" id="email" placeholder="Enter email" required />
+      </label>
+      <label>
+        Phone:
+        <input type="text" id="phone" placeholder="Enter phone number" required pattern="^\d{10}$" />
+      </label>
+      <label>
+        Department:
+        <input type="text" id="department" placeholder="Enter department" required />
+      </label>
+      <button type="submit">Add Employee</button>
+    </form>
+
+    <!-- Search bar -->
+    <div id="search-container">
+      <input type="text" id="search" placeholder="Search by name or department" />
+    </div>
+
+    <!-- Employee Table -->
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Department</th>
+          <th>Created At</th>
+          <th>Updated At</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="employee-table"></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
