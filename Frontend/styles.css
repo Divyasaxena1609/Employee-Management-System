@@ -1,0 +1,129 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    padding: 20px;
+  }
+  
+  #app {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #4A90E2;
+    margin-bottom: 30px;
+  }
+  
+  /* Form Styles */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="phone"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #4A90E2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #357ABD;
+  }
+  
+  /* Search Bar Styles */
+  #search-container {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #search {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  
+  /* Table Styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  th,
+  td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #4A90E2;
+    color: white;
+  }
+  
+  td button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  td .edit {
+    background-color: #69af6b;
+    color: white;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+  
+  td .delete {
+    background-color: #F44336;
+    color: white;
+  }
+  
+  td button:hover {
+    opacity: 0.8;
+  }
+
+  
