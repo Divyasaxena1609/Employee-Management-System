@@ -1,4 +1,4 @@
-Employee Management System
+# Employee-Management-System
 Description
 The Employee Management System is a web-based application that helps organizations to manage employee data efficiently. This application is built with a Spring Boot backend that serves a 
 RESTful API for managing employee data. The frontend is built using HTML, CSS, and JavaScript, which allows users to interact with the system, create, update, delete, and search employees. 
@@ -78,7 +78,3 @@ Description: Updates an existing employee's details. Requires employee data in t
 Method: DELETE
 Endpoint: /employees/{id}
 Description: Deletes an employee by ID.
-
-
-
-# Employee-Management-System
